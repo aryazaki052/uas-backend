@@ -1,0 +1,437 @@
+    /*
+    Flat  font: Flat
+    Creation date: 13/03/2018 03:24
+    */
+
+    @font-face {
+  font-family: "Flat";
+  src: url("./Flat.eot");
+  src: url("./Flat.eot?#iefix") format("embedded-opentype"),
+       url("./Flat.woff") format("woff"),
+       url("./Flat.ttf") format("truetype"),
+       url("./Flat.svg#Flat") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flat";
+    src: url("./Flat.svg#Flat") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flat";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flat-delivery-truck:before { content: "\f100"; }
+.flat-shopping-bag:before { content: "\f101"; }
+.flat-box-3:before { content: "\f102"; }
+.flat-box-2:before { content: "\f103"; }
+.flat-box-1:before { content: "\f104"; }
+.flat-laptop:before { content: "\f105"; }
+.flat-coffee-cup:before { content: "\f106"; }
+.flat-user-6:before { content: "\f107"; }
+.flat-user-5:before { content: "\f108"; }
+.flat-remove-user-1:before { content: "\f109"; }
+.flat-customer-support:before { content: "\f10a"; }
+.flat-user-4:before { content: "\f10b"; }
+.flat-user-3:before { content: "\f10c"; }
+.flat-user-2:before { content: "\f10d"; }
+.flat-remove-user:before { content: "\f10e"; }
+.flat-add-user:before { content: "\f10f"; }
+.flat-tea-cup:before { content: "\f110"; }
+.flat-pen:before { content: "\f111"; }
+.flat-desk:before { content: "\f112"; }
+.flat-ruler:before { content: "\f113"; }
+.flat-pencil:before { content: "\f114"; }
+.flat-analytics:before { content: "\f115"; }
+.flat-google-plus:before { content: "\f116"; }
+.flat-dribbble:before { content: "\f117"; }
+.flat-whatsapp:before { content: "\f118"; }
+.flat-twitter:before { content: "\f119"; }
+.flat-behance:before { content: "\f11a"; }
+.flat-instagram:before { content: "\f11b"; }
+.flat-android:before { content: "\f11c"; }
+.flat-apple:before { content: "\f11d"; }
+.flat-windows:before { content: "\f11e"; }
+.flat-pinterest:before { content: "\f11f"; }
+.flat-youtube:before { content: "\f120"; }
+.flat-paypal:before { content: "\f121"; }
+.flat-linkedin:before { content: "\f122"; }
+.flat-facebook:before { content: "\f123"; }
+.flat-lock-1:before { content: "\f124"; }
+.flat-lock:before { content: "\f125"; }
+.flat-profile-1:before { content: "\f126"; }
+.flat-profile:before { content: "\f127"; }
+.flat-user-1:before { content: "\f128"; }
+.flat-user:before { content: "\f129"; }
+.flat-users:before { content: "\f12a"; }
+.flat-message:before { content: "\f12b"; }
+.flat-placeholder-1:before { content: "\f12c"; }
+.flat-location:before { content: "\f12d"; }
+.flat-arrows-2:before { content: "\f12e"; }
+.flat-technology-2:before { content: "\f12f"; }
+.flat-multimedia-2:before { content: "\f130"; }
+.flat-multimedia-1:before { content: "\f131"; }
+.flat-close:before { content: "\f132"; }
+.flat-home:before { content: "\f133"; }
+.flat-circle:before { content: "\f134"; }
+.flat-arrow:before { content: "\f135"; }
+.flat-mark-1:before { content: "\f136"; }
+.flat-mark:before { content: "\f137"; }
+.flat-shapes-1:before { content: "\f138"; }
+.flat-search-2:before { content: "\f139"; }
+.flat-interface-7:before { content: "\f13a"; }
+.flat-suitcase:before { content: "\f13b"; }
+.flat-chain-1:before { content: "\f13c"; }
+.flat-chain:before { content: "\f13d"; }
+.flat-agenda-1:before { content: "\f13e"; }
+.flat-interface-6:before { content: "\f13f"; }
+.flat-calendar:before { content: "\f140"; }
+.flat-list:before { content: "\f141"; }
+.flat-file-1:before { content: "\f142"; }
+.flat-file:before { content: "\f143"; }
+.flat-interface-5:before { content: "\f144"; }
+.flat-folder:before { content: "\f145"; }
+.flat-stopwatch:before { content: "\f146"; }
+.flat-time:before { content: "\f147"; }
+.flat-clock-1:before { content: "\f148"; }
+.flat-search-1:before { content: "\f149"; }
+.flat-music-1:before { content: "\f14a"; }
+.flat-music:before { content: "\f14b"; }
+.flat-present:before { content: "\f14c"; }
+.flat-layers-1:before { content: "\f14d"; }
+.flat-settings:before { content: "\f14e"; }
+.flat-attachment:before { content: "\f14f"; }
+.flat-gestures:before { content: "\f150"; }
+.flat-tool:before { content: "\f151"; }
+.flat-interface-4:before { content: "\f152"; }
+.flat-interface-3:before { content: "\f153"; }
+.flat-agenda:before { content: "\f154"; }
+.flat-shapes:before { content: "\f155"; }
+.flat-symbol-1:before { content: "\f156"; }
+.flat-symbol:before { content: "\f157"; }
+.flat-interface-2:before { content: "\f158"; }
+.flat-layers:before { content: "\f159"; }
+.flat-clock:before { content: "\f15a"; }
+.flat-web-1:before { content: "\f15b"; }
+.flat-internet:before { content: "\f15c"; }
+.flat-placeholder:before { content: "\f15d"; }
+.flat-signs-3:before { content: "\f15e"; }
+.flat-star-1:before { content: "\f15f"; }
+.flat-web:before { content: "\f160"; }
+.flat-star:before { content: "\f161"; }
+.flat-like-1:before { content: "\f162"; }
+.flat-like:before { content: "\f163"; }
+.flat-cloud:before { content: "\f164"; }
+.flat-database:before { content: "\f165"; }
+.flat-technology-1:before { content: "\f166"; }
+.flat-idea:before { content: "\f167"; }
+.flat-search:before { content: "\f168"; }
+.flat-wifi:before { content: "\f169"; }
+.flat-hands-1:before { content: "\f16a"; }
+.flat-hands:before { content: "\f16b"; }
+.flat-bars-2:before { content: "\f16c"; }
+.flat-arrows-1:before { content: "\f16d"; }
+.flat-interface-1:before { content: "\f16e"; }
+.flat-network:before { content: "\f16f"; }
+.flat-share-1:before { content: "\f170"; }
+.flat-share:before { content: "\f171"; }
+.flat-bars-1:before { content: "\f172"; }
+.flat-cross-1:before { content: "\f173"; }
+.flat-line-1:before { content: "\f174"; }
+.flat-signs-2:before { content: "\f175"; }
+.flat-check:before { content: "\f176"; }
+.flat-technology:before { content: "\f177"; }
+.flat-bars:before { content: "\f178"; }
+.flat-cross:before { content: "\f179"; }
+.flat-add:before { content: "\f17a"; }
+.flat-power:before { content: "\f17b"; }
+.flat-signs-1:before { content: "\f17c"; }
+.flat-round:before { content: "\f17d"; }
+.flat-exclamation:before { content: "\f17e"; }
+.flat-success:before { content: "\f17f"; }
+.flat-error:before { content: "\f180"; }
+.flat-line:before { content: "\f181"; }
+.flat-plus:before { content: "\f182"; }
+.flat-interface:before { content: "\f183"; }
+.flat-signs:before { content: "\f184"; }
+.flat-play-button-1:before { content: "\f185"; }
+.flat-play-button:before { content: "\f186"; }
+.flat-music-player:before { content: "\f187"; }
+.flat-medical:before { content: "\f188"; }
+.flat-photo-camera:before { content: "\f189"; }
+.flat-picture:before { content: "\f18a"; }
+.flat-multimedia:before { content: "\f18b"; }
+.flat-game-controller:before { content: "\f18c"; }
+.flat-imac:before { content: "\f18d"; }
+.flat-paint-palette:before { content: "\f18e"; }
+.flat-envelope-3:before { content: "\f18f"; }
+.flat-envelope-2:before { content: "\f190"; }
+.flat-envelope-1:before { content: "\f191"; }
+.flat-envelope:before { content: "\f192"; }
+.flat-mailbox:before { content: "\f193"; }
+.flat-inbox:before { content: "\f194"; }
+.flat-chat-8:before { content: "\f195"; }
+.flat-chat-7:before { content: "\f196"; }
+.flat-chat-6:before { content: "\f197"; }
+.flat-chat-5:before { content: "\f198"; }
+.flat-chat-4:before { content: "\f199"; }
+.flat-chat-3:before { content: "\f19a"; }
+.flat-chat-2:before { content: "\f19b"; }
+.flat-chat-1:before { content: "\f19c"; }
+.flat-chat:before { content: "\f19d"; }
+.flat-archive:before { content: "\f19e"; }
+.flat-diagram:before { content: "\f19f"; }
+.flat-graph-2:before { content: "\f1a0"; }
+.flat-graph-1:before { content: "\f1a1"; }
+.flat-graph:before { content: "\f1a2"; }
+.flat-chart-pie:before { content: "\f1a3"; }
+.flat-presentation:before { content: "\f1a4"; }
+.flat-store:before { content: "\f1a5"; }
+.flat-coins:before { content: "\f1a6"; }
+.flat-credit-card-1:before { content: "\f1a7"; }
+.flat-credit-card:before { content: "\f1a8"; }
+.flat-cart-1:before { content: "\f1a9"; }
+.flat-cart:before { content: "\f1aa"; }
+.flat-price-tag:before { content: "\f1ab"; }
+.flat-box:before { content: "\f1ac"; }
+.flat-right-arrow-4:before { content: "\f1ad"; }
+.flat-left-arrow-4:before { content: "\f1ae"; }
+.flat-up-arrow-3:before { content: "\f1af"; }
+.flat-download-1:before { content: "\f1b0"; }
+.flat-down-arrow-3:before { content: "\f1b1"; }
+.flat-up-arrow-2:before { content: "\f1b2"; }
+.flat-left-arrow-3:before { content: "\f1b3"; }
+.flat-right-arrow-3:before { content: "\f1b4"; }
+.flat-down-arrow-2:before { content: "\f1b5"; }
+.flat-arrows:before { content: "\f1b6"; }
+.flat-left-arrow-2:before { content: "\f1b7"; }
+.flat-right-arrow-2:before { content: "\f1b8"; }
+.flat-upward:before { content: "\f1b9"; }
+.flat-download:before { content: "\f1ba"; }
+.flat-back:before { content: "\f1bb"; }
+.flat-next:before { content: "\f1bc"; }
+.flat-up-arrow-1:before { content: "\f1bd"; }
+.flat-down-arrow-1:before { content: "\f1be"; }
+.flat-left-arrow-1:before { content: "\f1bf"; }
+.flat-right-arrow-1:before { content: "\f1c0"; }
+.flat-up-arrow:before { content: "\f1c1"; }
+.flat-down-arrow:before { content: "\f1c2"; }
+.flat-left-arrow:before { content: "\f1c3"; }
+.flat-right-arrow:before { content: "\f1c4"; }
+.flat-expand:before { content: "\f1c5"; }
+.flat-repeat:before { content: "\f1c6"; }
+    
+    $font-Flat-delivery-truck: "\f100";
+    $font-Flat-shopping-bag: "\f101";
+    $font-Flat-box-3: "\f102";
+    $font-Flat-box-2: "\f103";
+    $font-Flat-box-1: "\f104";
+    $font-Flat-laptop: "\f105";
+    $font-Flat-coffee-cup: "\f106";
+    $font-Flat-user-6: "\f107";
+    $font-Flat-user-5: "\f108";
+    $font-Flat-remove-user-1: "\f109";
+    $font-Flat-customer-support: "\f10a";
+    $font-Flat-user-4: "\f10b";
+    $font-Flat-user-3: "\f10c";
+    $font-Flat-user-2: "\f10d";
+    $font-Flat-remove-user: "\f10e";
+    $font-Flat-add-user: "\f10f";
+    $font-Flat-tea-cup: "\f110";
+    $font-Flat-pen: "\f111";
+    $font-Flat-desk: "\f112";
+    $font-Flat-ruler: "\f113";
+    $font-Flat-pencil: "\f114";
+    $font-Flat-analytics: "\f115";
+    $font-Flat-google-plus: "\f116";
+    $font-Flat-dribbble: "\f117";
+    $font-Flat-whatsapp: "\f118";
+    $font-Flat-twitter: "\f119";
+    $font-Flat-behance: "\f11a";
+    $font-Flat-instagram: "\f11b";
+    $font-Flat-android: "\f11c";
+    $font-Flat-apple: "\f11d";
+    $font-Flat-windows: "\f11e";
+    $font-Flat-pinterest: "\f11f";
+    $font-Flat-youtube: "\f120";
+    $font-Flat-paypal: "\f121";
+    $font-Flat-linkedin: "\f122";
+    $font-Flat-facebook: "\f123";
+    $font-Flat-lock-1: "\f124";
+    $font-Flat-lock: "\f125";
+    $font-Flat-profile-1: "\f126";
+    $font-Flat-profile: "\f127";
+    $font-Flat-user-1: "\f128";
+    $font-Flat-user: "\f129";
+    $font-Flat-users: "\f12a";
+    $font-Flat-message: "\f12b";
+    $font-Flat-placeholder-1: "\f12c";
+    $font-Flat-location: "\f12d";
+    $font-Flat-arrows-2: "\f12e";
+    $font-Flat-technology-2: "\f12f";
+    $font-Flat-multimedia-2: "\f130";
+    $font-Flat-multimedia-1: "\f131";
+    $font-Flat-close: "\f132";
+    $font-Flat-home: "\f133";
+    $font-Flat-circle: "\f134";
+    $font-Flat-arrow: "\f135";
+    $font-Flat-mark-1: "\f136";
+    $font-Flat-mark: "\f137";
+    $font-Flat-shapes-1: "\f138";
+    $font-Flat-search-2: "\f139";
+    $font-Flat-interface-7: "\f13a";
+    $font-Flat-suitcase: "\f13b";
+    $font-Flat-chain-1: "\f13c";
+    $font-Flat-chain: "\f13d";
+    $font-Flat-agenda-1: "\f13e";
+    $font-Flat-interface-6: "\f13f";
+    $font-Flat-calendar: "\f140";
+    $font-Flat-list: "\f141";
+    $font-Flat-file-1: "\f142";
+    $font-Flat-file: "\f143";
+    $font-Flat-interface-5: "\f144";
+    $font-Flat-folder: "\f145";
+    $font-Flat-stopwatch: "\f146";
+    $font-Flat-time: "\f147";
+    $font-Flat-clock-1: "\f148";
+    $font-Flat-search-1: "\f149";
+    $font-Flat-music-1: "\f14a";
+    $font-Flat-music: "\f14b";
+    $font-Flat-present: "\f14c";
+    $font-Flat-layers-1: "\f14d";
+    $font-Flat-settings: "\f14e";
+    $font-Flat-attachment: "\f14f";
+    $font-Flat-gestures: "\f150";
+    $font-Flat-tool: "\f151";
+    $font-Flat-interface-4: "\f152";
+    $font-Flat-interface-3: "\f153";
+    $font-Flat-agenda: "\f154";
+    $font-Flat-shapes: "\f155";
+    $font-Flat-symbol-1: "\f156";
+    $font-Flat-symbol: "\f157";
+    $font-Flat-interface-2: "\f158";
+    $font-Flat-layers: "\f159";
+    $font-Flat-clock: "\f15a";
+    $font-Flat-web-1: "\f15b";
+    $font-Flat-internet: "\f15c";
+    $font-Flat-placeholder: "\f15d";
+    $font-Flat-signs-3: "\f15e";
+    $font-Flat-star-1: "\f15f";
+    $font-Flat-web: "\f160";
+    $font-Flat-star: "\f161";
+    $font-Flat-like-1: "\f162";
+    $font-Flat-like: "\f163";
+    $font-Flat-cloud: "\f164";
+    $font-Flat-database: "\f165";
+    $font-Flat-technology-1: "\f166";
+    $font-Flat-idea: "\f167";
+    $font-Flat-search: "\f168";
+    $font-Flat-wifi: "\f169";
+    $font-Flat-hands-1: "\f16a";
+    $font-Flat-hands: "\f16b";
+    $font-Flat-bars-2: "\f16c";
+    $font-Flat-arrows-1: "\f16d";
+    $font-Flat-interface-1: "\f16e";
+    $font-Flat-network: "\f16f";
+    $font-Flat-share-1: "\f170";
+    $font-Flat-share: "\f171";
+    $font-Flat-bars-1: "\f172";
+    $font-Flat-cross-1: "\f173";
+    $font-Flat-line-1: "\f174";
+    $font-Flat-signs-2: "\f175";
+    $font-Flat-check: "\f176";
+    $font-Flat-technology: "\f177";
+    $font-Flat-bars: "\f178";
+    $font-Flat-cross: "\f179";
+    $font-Flat-add: "\f17a";
+    $font-Flat-power: "\f17b";
+    $font-Flat-signs-1: "\f17c";
+    $font-Flat-round: "\f17d";
+    $font-Flat-exclamation: "\f17e";
+    $font-Flat-success: "\f17f";
+    $font-Flat-error: "\f180";
+    $font-Flat-line: "\f181";
+    $font-Flat-plus: "\f182";
+    $font-Flat-interface: "\f183";
+    $font-Flat-signs: "\f184";
+    $font-Flat-play-button-1: "\f185";
+    $font-Flat-play-button: "\f186";
+    $font-Flat-music-player: "\f187";
+    $font-Flat-medical: "\f188";
+    $font-Flat-photo-camera: "\f189";
+    $font-Flat-picture: "\f18a";
+    $font-Flat-multimedia: "\f18b";
+    $font-Flat-game-controller: "\f18c";
+    $font-Flat-imac: "\f18d";
+    $font-Flat-paint-palette: "\f18e";
+    $font-Flat-envelope-3: "\f18f";
+    $font-Flat-envelope-2: "\f190";
+    $font-Flat-envelope-1: "\f191";
+    $font-Flat-envelope: "\f192";
+    $font-Flat-mailbox: "\f193";
+    $font-Flat-inbox: "\f194";
+    $font-Flat-chat-8: "\f195";
+    $font-Flat-chat-7: "\f196";
+    $font-Flat-chat-6: "\f197";
+    $font-Flat-chat-5: "\f198";
+    $font-Flat-chat-4: "\f199";
+    $font-Flat-chat-3: "\f19a";
+    $font-Flat-chat-2: "\f19b";
+    $font-Flat-chat-1: "\f19c";
+    $font-Flat-chat: "\f19d";
+    $font-Flat-archive: "\f19e";
+    $font-Flat-diagram: "\f19f";
+    $font-Flat-graph-2: "\f1a0";
+    $font-Flat-graph-1: "\f1a1";
+    $font-Flat-graph: "\f1a2";
+    $font-Flat-chart-pie: "\f1a3";
+    $font-Flat-presentation: "\f1a4";
+    $font-Flat-store: "\f1a5";
+    $font-Flat-coins: "\f1a6";
+    $font-Flat-credit-card-1: "\f1a7";
+    $font-Flat-credit-card: "\f1a8";
+    $font-Flat-cart-1: "\f1a9";
+    $font-Flat-cart: "\f1aa";
+    $font-Flat-price-tag: "\f1ab";
+    $font-Flat-box: "\f1ac";
+    $font-Flat-right-arrow-4: "\f1ad";
+    $font-Flat-left-arrow-4: "\f1ae";
+    $font-Flat-up-arrow-3: "\f1af";
+    $font-Flat-download-1: "\f1b0";
+    $font-Flat-down-arrow-3: "\f1b1";
+    $font-Flat-up-arrow-2: "\f1b2";
+    $font-Flat-left-arrow-3: "\f1b3";
+    $font-Flat-right-arrow-3: "\f1b4";
+    $font-Flat-down-arrow-2: "\f1b5";
+    $font-Flat-arrows: "\f1b6";
+    $font-Flat-left-arrow-2: "\f1b7";
+    $font-Flat-right-arrow-2: "\f1b8";
+    $font-Flat-upward: "\f1b9";
+    $font-Flat-download: "\f1ba";
+    $font-Flat-back: "\f1bb";
+    $font-Flat-next: "\f1bc";
+    $font-Flat-up-arrow-1: "\f1bd";
+    $font-Flat-down-arrow-1: "\f1be";
+    $font-Flat-left-arrow-1: "\f1bf";
+    $font-Flat-right-arrow-1: "\f1c0";
+    $font-Flat-up-arrow: "\f1c1";
+    $font-Flat-down-arrow: "\f1c2";
+    $font-Flat-left-arrow: "\f1c3";
+    $font-Flat-right-arrow: "\f1c4";
+    $font-Flat-expand: "\f1c5";
+    $font-Flat-repeat: "\f1c6";
