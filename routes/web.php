@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\BaliTourController;
+use App\Http\Controllers\BaliTracking;
 use App\Http\Controllers\BaliTransport;
 use App\Http\Controllers\TourController;
 use App\Http\Controllers\TrackingController;
@@ -21,16 +23,18 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('front.landing-page.content');
 });
-Route::get('/balitrack', function () {
-    return view('front.tracking.index');
-});
+// Route::get('/balitrack', function () {
+//     return view('front.tracking.index');
+// });
+Route::resource('/balitrack', BaliTracking::class);
 Route::resource('/balitransport', BaliTransport::class);
+Route::resource('/balitour', BaliTourController::class);
 // Route::get('/balitransport', function () {
 //     return view('front.transport.index');
 // });
-Route::get('/balitour', function () {
-    return view('front.tour.tour');
-});
+// Route::get('/balitour', function () {
+//     return view('front.tour.tour');
+// });
 
 
 

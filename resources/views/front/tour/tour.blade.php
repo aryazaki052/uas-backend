@@ -39,21 +39,22 @@
 
 <!-- Card -->
 <section class="container">
-  <div class="row">
+  <div class="row justify-content-center">
+    @foreach ($tour as $tours)
     <div class="col-lg-4 col-md-6 col-sm-12">
       <div class="card">
         <div class="ratio ratio-16x9 img-hover-zoom">
-          <img src="{{asset('gambar/L1.we')}}bp">
+          <img src="{{ asset('uploads/' . $tours->gambar_tour) }}">
         </div>
         <div class="card-body">
-          <h4 class="card-title">Special Lempuyang Temple Gate of Heaven, Tirta Gangga, Virgin Beach Tour</h4>
-          <p class="card-text"> that we recommend for those of you who like interesting and unique places to visit in
-            Bali.</p>
+          <h4 class="card-title"> {{ $tours ->judul}} </h4>
+          <p class="card-text"> {!!$tours->desk !!} </p>
           <a href="{{asset('gambarailtou')}}r" class="btn btn-primary">Visit Now!</a>
         </div>
       </div>
     </div>
-    <div class="col-lg-4 col-md-6 col-sm-12">
+    @endforeach
+    {{-- <div class="col-lg-4 col-md-6 col-sm-12">
       <div class="card">
         <div class="ratio ratio-16x9 img-hover-zoom">
           <img src="{{asset('gambar/lagon')}}2.jpg">
@@ -79,7 +80,7 @@
           <a href="../post/card3.html" class="btn btn-primary btn2">Visit Now!</a>
         </div>
       </div>
-    </div>
+    </div> --}}
   </div>
 </section>
 
