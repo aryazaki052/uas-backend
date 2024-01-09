@@ -23,12 +23,13 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('front.landing-page.content');
 });
-// Route::get('/balitrack', function () {
-//     return view('front.tracking.index');
-// });
+Route::get('/detail', function () {
+    return view('front.tour.detail');
+});
 Route::resource('/balitrack', BaliTracking::class);
 Route::resource('/balitransport', BaliTransport::class);
 Route::resource('/balitour', BaliTourController::class);
+Route::get('/balitour/{id}', [BaliTourController::class, 'show'])->name('balitour.show');
 // Route::get('/balitransport', function () {
 //     return view('front.transport.index');
 // });

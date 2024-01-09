@@ -100,7 +100,7 @@
   <nav class="navbar container-fluid navbar-expand-md navbar-light">
     <div class="container-fluid">
       <!-- Logo navbar -->
-      <a class="navbar-brand logo" href="landingpage.html"><img src="gambar/logonew.png" alt="logo" width="105px" /></a>
+      <a class="navbar-brand logo" href="/"><img src="{{asset('gambar/logonew.png')}}" alt="logo" width="105px" /></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-"></span>

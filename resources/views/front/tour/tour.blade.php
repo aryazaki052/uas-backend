@@ -39,7 +39,7 @@
 
 <!-- Card -->
 <section class="container">
-  <div class="row justify-content-center">
+  <div class="row justify-content-center gy-4">
     @foreach ($tour as $tours)
     <div class="col-lg-4 col-md-6 col-sm-12">
       <div class="card">
@@ -49,38 +49,11 @@
         <div class="card-body">
           <h4 class="card-title"> {{ $tours ->judul}} </h4>
           <p class="card-text"> {!!$tours->desk !!} </p>
-          <a href="{{asset('gambarailtou')}}r" class="btn btn-primary">Visit Now!</a>
+          <a href="{{ url('/balitour/' . $tours->id) }}" class="btn btn-primary">Visit Now!</a>
         </div>
       </div>
     </div>
     @endforeach
-    {{-- <div class="col-lg-4 col-md-6 col-sm-12">
-      <div class="card">
-        <div class="ratio ratio-16x9 img-hover-zoom">
-          <img src="{{asset('gambar/lagon')}}2.jpg">
-        </div>
-        <div class="card-body">
-          <h4 class="card-title">Blue Lagoon Snorkeling Bali</h4>
-          <p class="card-text">This Bali Activity will start at 9.00 am from one of these following
-            areas: Nusa Dua, Jimbaran, Uluwatu, Kuta, Legian, Seminyak, Canggu, or
-            Sanur.</p>
-          <a href="../post/card2.html" class="btn btn-primary btn2">Visit Now!</a>
-        </div>
-      </div>
-    </div>
-    <div class="col-lg-4 col-md-6 col-sm-12">
-      <div class="card">
-        <div class="ratio ratio-16x9 img-hover-zoom">
-          <img src="{{asset('gambar/pen1.')}}jpg">
-        </div>
-        <div class="card-body">
-          <h4 class="card-title">Private West Penida Tour</h4>
-          <p class="card-text">This Nusa Penida Tour includes some activity such as visiting Broken beach, Kelingking
-            beach, Angel Billabong beach, and Crystal Bay.</p>
-          <a href="../post/card3.html" class="btn btn-primary btn2">Visit Now!</a>
-        </div>
-      </div>
-    </div> --}}
   </div>
 </section>
 
